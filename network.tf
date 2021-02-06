@@ -40,7 +40,7 @@ resource "google_compute_firewall" "jenkins" {
 
   allow {
     protocol = "tcp"
-    ports    = ["22", "8080","5901"]
+    ports    = ["22", "8080","5901", "5000"]
   }
 
   source_tags = ["jenkins"]

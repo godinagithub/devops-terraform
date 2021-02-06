@@ -1,9 +1,8 @@
 variable "project" {
-  default = "devops-303610"
 }
 
 variable "credentials_file" {
-  default = "devops.json"
+  default = "~/tfkey.json"
 }
 
 variable "region" {

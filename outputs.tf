@@ -18,3 +18,6 @@ output "kubernetes_cluster_host" {
   description = "GKE Cluster Host"
 }
 
+output "jenkins_public_ipaddress" {
+  value = google_compute_address.jenkins_static_ip.address 
+}
