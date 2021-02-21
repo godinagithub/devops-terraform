@@ -14,7 +14,6 @@ variable "zone" {
 }
 
 variable "gce_ssh_user" {
-  default = "bemahesh2020"
 }
 
 variable "gce_ssh_pub_key_file" {
